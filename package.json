@@ -1,0 +1,11 @@
+{
+  "name": "otools-feixingqi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OTools 插件：飞行棋（2-4 人本机对弈 + 电脑对手 + 海洋/热带雨林/沙漠三主题，纯静态实现）",
+  "scripts": {
+    "test": "node --test tests/",
+    "build": "node scripts/build-web.mjs"
+  }
+}

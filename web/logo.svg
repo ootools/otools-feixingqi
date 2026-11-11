@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="飞行棋">
+  <defs>
+    <linearGradient id="fxq-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#122338"/>
+      <stop offset="100%" stop-color="#0a1524"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#fxq-bg)"/>
+
+  <!-- 十字环形盘：四臂格道 -->
+  <g stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <!-- 上臂 -->
+    <path d="M56 18 h16 v20 h-16 z" fill="#ff6b7a" stroke="none" opacity="0.9"/>
+    <!-- 右臂 -->
+    <path d="M90 56 h20 v16 h-20 z" fill="#ffcf5c" stroke="none" opacity="0.9"/>
+    <!-- 下臂 -->
+    <path d="M56 90 h16 v20 h-16 z" fill="#4cc9f0" stroke="none" opacity="0.9"/>
+    <!-- 左臂 -->
+    <path d="M18 56 h20 v16 h-20 z" fill="#57d9a3" stroke="none" opacity="0.9"/>
+  </g>
+
+  <!-- 环形航道（圆角方环） -->
+  <rect x="30" y="30" width="68" height="68" rx="16" fill="none" stroke="#dcebf7" stroke-width="5" stroke-dasharray="10 7" opacity="0.85"/>
+
+  <!-- 中央枢纽 + 螺旋桨 -->
+  <circle cx="64" cy="64" r="15" fill="#dcebf7" opacity="0.14"/>
+  <circle cx="64" cy="64" r="15" fill="none" stroke="#7dd8ff" stroke-width="3.4"/>
+
+  <!-- 纸飞机 -->
+  <g transform="translate(64 61) rotate(12)">
+    <path d="M-16 6 L18 -12 L2 16 L-2 4 Z" fill="#f4f6fa" stroke="#f4f6fa" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M-16 6 L-2 4 L18 -12 Z" fill="#c9d8e6"/>
+  </g>
+
+  <!-- 四色起航点 -->
+  <circle cx="30" cy="30" r="5.5" fill="#ff6b7a"/>
+  <circle cx="98" cy="30" r="5.5" fill="#ffcf5c"/>
+  <circle cx="98" cy="98" r="5.5" fill="#4cc9f0"/>
+  <circle cx="30" cy="98" r="5.5" fill="#57d9a3"/>
+</svg>
